@@ -42,5 +42,9 @@ def file2matrix(filename):
         classLabelVector.append(int(listFromeLine[-1]))
         index += 1
     return  returnMat, classLabelVector
+	
+def helloworld():
+	print "hello world"
+	
      
      
