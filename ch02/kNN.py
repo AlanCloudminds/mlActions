@@ -39,7 +39,7 @@ def file2matrix(filename):
     index = 0
     for line in arrayOLines:
         line = line.strip()
-        listFromeLine = line.splite('\t')
+        listFromeLine = line.split('\t')
         returnMat[index, :] = listFromeLine[0:3]
         classLabelVector.append(int(listFromeLine[-1]))
         index += 1
